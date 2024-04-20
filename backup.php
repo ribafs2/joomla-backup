@@ -22,10 +22,12 @@ JHtml::_('script', 'media/vendor/bootstrap/js/bootstrap-es5.js', array('relative
 <div class="container mt-3">
 <div class="mt-4 p-5 bg-primary text-white rounded">
 <h1>Joomla Backup</h1> 
+<h4><?=JText::_('COM_BACKUP_SUBJUMB')?></h4> 
 </div>
 <form action="" method="post">
 <div class="row mb-3">
-<input type=text class="form-control form-control-sm" name="folder" style="width: 15rem; font-size:16px">
+<label for="folder" class="col-sm-2 col-form-label"><?=JText::_('COM_BACKUP_IGNORE')?></label>
+<input type=text class="form-control form-control-sm" name="folder" value="down" style="width: 15rem; font-size:16px">
 </div>
 <input type=submit class="btn btn-primary" value="<?=JText::_('COM_BACKUP_START')?>">
 </form>

@@ -1,44 +1,38 @@
 # Simple Backup to CMS Joomla
 
-Crido de forma muito livre e nada convencional.
+Created very free and unconventional way.
 
-## Compatível com as versões 3, 4 e 5 do Joomla
+## Supported versions 3, 4 and 5 from Joomla
 
 [![Licença](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/ribafs/simplebackup/blob/master/LICENSE)
 
 ## Main Resources
-    Backup to download on desktop 
+    Backup to download on desktop files and database
     Very simple backup
-    Support Joomla 3, 4 e 5
+    Support Joomla 3, 4 and 5
     Translated to portuguese and english
-    Exclude one folder
+    Exclude one folder, optional
 
 ## Download
-https://ribamar.net.br/down/devel/backend/CMS/Joomla/com_backupx.zip
-https://github.com/ribafs/com_simplebackup
+https://github.com/ribafs2/joomla-backup
 
 ## Configurações
 
-Zero, nenhuma configuração.
+Zero, no configuration.
 
-## Observação
-A pasta a ser desconsiderada na compactação é fixa "down". Para alterá-la, mude a linha:
+## Observation
+The folder to be disregarded in compression is fixed to "down".
 
-$exclude = $params->get('exclude_folder', "'*down*'");
+## How to use
 
-No arquico backup.php
+- Click in Components
+- Joomla backup
+- Start and wait ...
+- Click on the links to download.
+Note: The component only saves the last backup. If you want more than one copy, keep it on your desktop.
 
-## Usando
-
-- Clique no componente
-- Iniciar e aguarde
-- Clique nos links para fazer o download.
-Obs: O componente guarda apenas o ultimo backup. Caso queira mais de uma copia, guarde em seu desktop.
-
-## Resultado
-Gerado um arquivo zip e um sql para download a pasta
-
-administrator/components/com_simplebackup/backups
+## Results
+Generated a zip file and an sql to download to the folder
 
 License
 -------
