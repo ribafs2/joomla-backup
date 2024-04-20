@@ -1,4 +1,4 @@
-# Simple Backup to CMS Joomla
+# Simple Joomla Backup (exclude folder)
 
 Created very free and unconventional way.
 
